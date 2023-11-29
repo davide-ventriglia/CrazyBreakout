@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "344116178948",
+    "firebase_url": "https://breakoutgame-913ed-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "breakoutgame-913ed",
+    "storage_bucket": "breakoutgame-913ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344116178948:android:8b73f5e77bf6eb0acf0551",
+        "android_client_info": {
+          "package_name": "com.huransforge.breakout"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEsel4kzOU459Dmb1cblNI3UGVN0JDGAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
