@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5290554628917087133}
   - component: {fileID: 5290554628917087122}
   - component: {fileID: 5290554628917087123}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Block
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5290554628917087120}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.51, y: 1.72, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -129,6 +129,8 @@ MonoBehaviour:
   ScoreValue: 100
   OnBlockDestroyed: {fileID: 8300000, guid: 390ec1bf0ff5890429c75c74927a784b, type: 3}
   OnBlockHit: {fileID: 8300000, guid: 8967664d203867140b1d700b977d0dee, type: 3}
+  PowerUpsPrefabs:
+  - {fileID: 3426511021713911869, guid: d5b00598201164501b562259c9a938cc, type: 3}
 --- !u!50 &5290554628917087123
 Rigidbody2D:
   serializedVersion: 4

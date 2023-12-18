@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBlock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -191,6 +195,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowBlock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
       propertyPath: m_RootOrder
       value: 42
@@ -247,6 +255,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_Name
       value: Block (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
@@ -309,6 +321,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
       propertyPath: m_Name
       value: YellowBlock (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
       propertyPath: m_RootOrder
@@ -515,6 +531,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
       propertyPath: m_Name
       value: YellowBlock (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
       propertyPath: m_RootOrder
@@ -908,6 +928,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -980,6 +1004,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBlock (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -1042,6 +1070,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBlock (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -1098,6 +1130,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_Name
       value: Block (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
@@ -1290,6 +1326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -1352,6 +1392,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowBlock (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
       propertyPath: m_RootOrder
       value: 51
@@ -1408,6 +1452,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
       propertyPath: m_Name
       value: GreenBlock (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
       propertyPath: m_RootOrder
@@ -1467,7 +1515,7 @@ GameObject:
   - component: {fileID: 479851472}
   - component: {fileID: 479851471}
   - component: {fileID: 479851470}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightWall
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -1598,6 +1646,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
       propertyPath: m_Name
       value: YellowBlock (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
       propertyPath: m_RootOrder
@@ -1894,6 +1946,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -1956,6 +2012,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -2012,6 +2072,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
       propertyPath: m_Name
       value: GreenBlock (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087132, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
       propertyPath: m_Color.b
@@ -2082,6 +2146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBlock (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 1dddea921944448a19cfe287353483c9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087132, guid: 1dddea921944448a19cfe287353483c9, type: 3}
       propertyPath: m_Color.b
       value: 0
@@ -2151,6 +2219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBlock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -2207,6 +2279,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_Name
       value: Block (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
@@ -2350,6 +2426,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -2491,6 +2571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBlock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 1dddea921944448a19cfe287353483c9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 1dddea921944448a19cfe287353483c9, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -2547,6 +2631,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_Name
       value: Block (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
@@ -2678,6 +2766,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -2739,6 +2831,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
       propertyPath: m_Name
       value: GreenBlock (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
       propertyPath: m_RootOrder
@@ -2932,9 +3028,9 @@ GameObject:
   - component: {fileID: 744860188}
   - component: {fileID: 744860191}
   - component: {fileID: 744860192}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ball
-  m_TagString: Untagged
+  m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3015,7 +3111,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 744860187}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.02, y: -3.09, z: 0}
+  m_LocalPosition: {x: -0.02, y: -3.266, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3032,7 +3128,7 @@ Rigidbody2D:
   m_GameObject: {fileID: 744860187}
   m_BodyType: 1
   m_Simulated: 1
-  m_UseFullKinematicContacts: 0
+  m_UseFullKinematicContacts: 1
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
@@ -3058,6 +3154,9 @@ MonoBehaviour:
   OnPaddleHit: {fileID: 8300000, guid: bdb6de4b7a1bdff49a4b177f798c4ee5, type: 3}
   OnWallHit: {fileID: 8300000, guid: 8967664d203867140b1d700b977d0dee, type: 3}
   Velocity: {x: 4, y: 4}
+  initialScalarVelocity: 5
+  startingPositionYOffset: 0.5
+  scalarVelocityIncrement: 0.1
 --- !u!1001 &781580785
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3068,6 +3167,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
       propertyPath: m_Name
       value: GreenBlock (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
       propertyPath: m_RootOrder
@@ -3129,7 +3232,7 @@ GameObject:
   - component: {fileID: 798091881}
   - component: {fileID: 798091882}
   - component: {fileID: 798091883}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Paddle
   m_TagString: Paddle
   m_Icon: {fileID: 0}
@@ -3182,7 +3285,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
-  m_Size: {x: 1, y: 0.32}
+  m_Size: {x: 2, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3221,13 +3324,13 @@ BoxCollider2D:
     border: {x: 0.04, y: 0.04, z: 0.04, w: 0.04}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.32, y: 0.32}
-    newSize: {x: 1, y: 0.32}
+    newSize: {x: 2, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 1
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.32}
+  m_Size: {x: 2, y: 0.32}
   m_EdgeRadius: 0
 --- !u!50 &798091881
 Rigidbody2D:
@@ -3262,7 +3365,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17df24bdb3627466eb1fd745c816d181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 8
+  defaultSpeed: 5
+  isShooting: 1
 --- !u!60 &798091883
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3281,7 +3385,7 @@ PolygonCollider2D:
     border: {x: 0.04, y: 0.04, z: 0.04, w: 0.04}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.32, y: 0.32}
-    newSize: {x: 1, y: 0.32}
+    newSize: {x: 2, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 1
     adaptiveTiling: 0
@@ -3315,6 +3419,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
       propertyPath: m_Name
       value: YellowBlock (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087132, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
       propertyPath: m_Color.b
@@ -3385,6 +3493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBlock (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -3441,6 +3553,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
       propertyPath: m_Name
       value: YellowBlock (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
       propertyPath: m_RootOrder
@@ -3513,6 +3629,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_Name
       value: Block (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
@@ -3679,6 +3799,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
       propertyPath: m_Name
       value: GreenBlock (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
       propertyPath: m_RootOrder
@@ -3956,6 +4080,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBlock (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -4017,6 +4145,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_Name
       value: Block (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
@@ -4080,6 +4212,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowBlock (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
       propertyPath: m_RootOrder
       value: 54
@@ -4136,6 +4272,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_Name
       value: Block (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
@@ -4199,6 +4339,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -4261,6 +4405,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBlock (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -4318,6 +4466,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowBlock (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
       propertyPath: m_RootOrder
       value: 55
@@ -4374,6 +4526,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_Name
       value: Block (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
@@ -4437,6 +4593,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBlock (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -4493,6 +4653,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
       propertyPath: m_Name
       value: YellowBlock (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
       propertyPath: m_RootOrder
@@ -4631,6 +4795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 1dddea921944448a19cfe287353483c9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 1dddea921944448a19cfe287353483c9, type: 3}
       propertyPath: m_RootOrder
       value: 41
@@ -4692,6 +4860,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_Name
       value: Block (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
@@ -4867,6 +5039,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -5007,6 +5183,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_Name
       value: Block (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
@@ -5281,7 +5461,7 @@ GameObject:
   - component: {fileID: 1349629983}
   - component: {fileID: 1349629982}
   - component: {fileID: 1349629981}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LeftWall
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -5457,6 +5637,12 @@ MonoBehaviour:
   Level: 1
   isGamePaused: 0
   nameInputField: {fileID: 190859225}
+  PowerUpsPrefabs:
+  - {fileID: 1218055262457756657, guid: d5b00598201164501b562259c9a938cc, type: 3}
+  - {fileID: 1214546346143193114, guid: af724213f76ca429492dd5bcd9d05ed6, type: 3}
+  - {fileID: 7960490353454269600, guid: 32c968c26e4d441cc9e7555303b8f556, type: 3}
+  - {fileID: 5330911211563985584, guid: 34b71d8f445cb487db5753e7f6334651, type: 3}
+  hitBlocks: 0
 --- !u!1001 &1385167108
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5467,6 +5653,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_Name
       value: Block (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
@@ -5555,6 +5745,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -5621,6 +5815,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
       propertyPath: m_Name
       value: GreenBlock (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
       propertyPath: m_RootOrder
@@ -5857,6 +6055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBlock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 1dddea921944448a19cfe287353483c9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 1dddea921944448a19cfe287353483c9, type: 3}
       propertyPath: m_RootOrder
       value: 46
@@ -5913,6 +6115,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_Name
       value: Block (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
@@ -5976,6 +6182,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBlock (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -6032,6 +6242,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_Name
       value: Block (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
@@ -6096,7 +6310,7 @@ GameObject:
   - component: {fileID: 1764376588}
   - component: {fileID: 1764376589}
   - component: {fileID: 1764376590}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TopWall
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -6362,6 +6576,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -6423,6 +6641,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: 1dddea921944448a19cfe287353483c9, type: 3}
       propertyPath: m_Name
       value: RedBlock (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 1dddea921944448a19cfe287353483c9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 1dddea921944448a19cfe287353483c9, type: 3}
       propertyPath: m_RootOrder
@@ -6529,6 +6751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22c3f5f5995f64bdea10e2cdc0cf664e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ProjectilePrefab: {fileID: 1339408671809903152, guid: 84a60ce7ee48745f3a97969f0e5aa24d, type: 3}
 --- !u!1 &1901779083
 GameObject:
   m_ObjectHideFlags: 0
@@ -6674,6 +6897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -6735,6 +6962,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
       propertyPath: m_Name
       value: YellowBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
       propertyPath: m_RootOrder
@@ -7038,6 +7269,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
       propertyPath: m_Name
       value: YellowBlock (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
       propertyPath: m_RootOrder
@@ -7543,6 +7778,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowBlock (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087132, guid: 54853029b38434386ab504d1c9f6cea9, type: 3}
       propertyPath: m_Color.b
       value: 0
@@ -7692,6 +7931,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBlock (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: 1dddea921944448a19cfe287353483c9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: 1dddea921944448a19cfe287353483c9, type: 3}
       propertyPath: m_RootOrder
       value: 48
@@ -7748,6 +7991,10 @@ PrefabInstance:
     - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_Name
       value: Block
+      objectReference: {fileID: 0}
+    - target: {fileID: 5290554628917087120, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290554628917087135, guid: da0d5df8707324a84abdb85486887f7d, type: 3}
       propertyPath: m_RootOrder

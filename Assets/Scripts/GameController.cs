@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using System.Collections.Generic;
 
 public class GameController : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class GameController : MonoBehaviour
     public bool isGameOver {get; private set;}
     public bool isGamePaused;
     public TMP_InputField nameInputField;
+    public List<PowerUp> PowerUpsPrefabs;
+    public int hitBlocks;
 
     private void Start() {
         uIController = FindObjectOfType<UIController>();
@@ -24,6 +27,7 @@ public class GameController : MonoBehaviour
         Lives = 3;
         Level = 0;
         Score = 0;
+        hitBlocks = 0;
         isGameOver = false;
         isGamePaused = false;
 
@@ -44,6 +48,10 @@ public class GameController : MonoBehaviour
     public void AddScore(int _value){
         Score += _value;
         uIController.UpdateScoreLabel(Score);    
+    }
+
+    public void AddLife(){
+        Lives++;
     }
 
     public void RemoveLife(){
@@ -88,6 +96,7 @@ public class GameController : MonoBehaviour
 
     public void PlayNextLevel(){
         Level++;
+        hitBlocks = 0;
         uIController.UpdateLevelLabel(Level);
         ball.SpawnBall();
         blockController.DrawLevel(Level);

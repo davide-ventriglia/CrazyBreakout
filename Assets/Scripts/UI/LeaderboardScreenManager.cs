@@ -22,7 +22,7 @@ public class LeaderboardScreenManager : MonoBehaviour
         Transform container = leaderboard.transform.Find("Container").Find(containerName);
         for(int i=0; i<data.userDetailsList.Count && i<container.childCount; i++){
             if(data.userDetailsList[i]!=null)
-                container.GetChild(i).GetComponent<TMP_Text>().text = dataLabel=="name" ? data.userDetailsList[i].name : data.userDetailsList[i].score.ToString();
+                container.GetChild(i).GetComponent<TMP_Text>().text = dataLabel=="name" ? data.userDetailsList[i].name.ToUpper() : data.userDetailsList[i].score.ToString();
         }
     }
     public void BackToMain(){

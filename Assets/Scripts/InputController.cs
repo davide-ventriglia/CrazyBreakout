@@ -6,6 +6,7 @@ public class InputController : MonoBehaviour
 {
     GameController gameController;
     BlockController blockController;
+    public GameObject ProjectilePrefab;
     Paddle paddle;
     Ball ball;
     float moveX;
@@ -34,7 +35,13 @@ public class InputController : MonoBehaviour
         // SPACE: play the ball
         if(ball.isInStartPosition && Input.GetKeyDown(KeyCode.Space)){
             ball.PlayBall();
-            ball.Velocity = new Vector2(Random.Range(-2.0f,2.0f),Random.Range(3.0f,5.0f));
+        }
+
+        // SPACE: fire projectiles
+        if(!ball.isInStartPosition && paddle.isShooting && Input.GetKeyDown(KeyCode.Space)){
+            var p = Instantiate(ProjectilePrefab, paddle.transform.position, Quaternion.identity);
+            Rigidbody2D rb = p.GetComponent<Rigidbody2D>();
+            rb.AddForce(Vector2.up * 500);
         }
 
         // TEST COMMANDS

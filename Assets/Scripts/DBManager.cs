@@ -25,7 +25,7 @@ public class DBManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    // Using coroutine to gather data and show leaderboard almost from beginning
+    // Using coroutine to gather data almost from beginning of game
     void Start(){
         //getting leaderboard data
         StartCoroutine(GetLeaderboardData());
@@ -66,7 +66,6 @@ public class DBManager : MonoBehaviour
     }
 
 }
-
 
 
 // public class DBManager : MonoBehaviour

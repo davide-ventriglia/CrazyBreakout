@@ -12,7 +12,13 @@ public class Ball : MonoBehaviour
     public AudioClip OnPaddleHit;
     public AudioClip OnWallHit;
     public Vector2 Velocity;
+    public float initialScalarVelocity = 5.0f;
+    float scalarVelocity;
     public bool isInStartPosition {get; private set;}
+    public float startingPositionYOffset = 0.5f;
+    public float scalarVelocityIncrement = 0.1f;
+    float vx;
+    float vy;
 
     void Awake() {
         circleCollider = GetComponent<CircleCollider2D>();
@@ -27,31 +33,7 @@ public class Ball : MonoBehaviour
             SpawnBall();
         }
         else{
-            // managing ball collisions with raycast
-            // there is a bug if hit a wall
             transform.Translate(Velocity * Time.deltaTime);
-            RaycastHit2D[] hits = Physics2D.CircleCastAll(transform.position, circleCollider.radius, Velocity, (Velocity*Time.deltaTime).magnitude);
-            foreach(RaycastHit2D hit in hits){
-                if(hit.collider != circleCollider && lastHitObject != hit.transform.gameObject){
-                    lastHitObject = hit.transform.gameObject;
-                    Velocity = Vector2.Reflect(Velocity, hit.normal);
-
-                    if(hit.transform.GetComponent<Paddle>()){
-                        Velocity.y = Mathf.Abs(Velocity.y);
-                        gameController.audioController.PlayClip(OnPaddleHit);
-                    }
-
-                    if(hit.transform.GetComponent<Block>()){
-                        hit.transform.GetComponent<Block>().OnHit();
-                    }
-
-                    if(hit.transform.tag == "Wall"){
-                        gameController.audioController.PlayClip(OnWallHit);
-                    }
-                }
-            }
-
-            // managing ball collision
         }
     }
 
@@ -62,11 +44,41 @@ public class Ball : MonoBehaviour
 
     public void SpawnBall(){
         isInStartPosition = true;
-        transform.position = new Vector3(paddle.transform.position.x, paddle.transform.position.y+0.5f,0);
+        transform.position = new Vector3(paddle.transform.position.x, paddle.transform.position.y + startingPositionYOffset,paddle.transform.position.z);
     }
 
     public void PlayBall(){
         isInStartPosition = false;
+        scalarVelocity = initialScalarVelocity;
+
+        float startingDegAngle = Random.Range(45f,145f);
+        vx = initialScalarVelocity * Mathf.Cos(Mathf.Deg2Rad * startingDegAngle);
+        vy = initialScalarVelocity * Mathf.Sin(Mathf.Deg2Rad * startingDegAngle);
+        Velocity = new Vector2(vx,vy);
+    }
+
+    public void IncreaseVelocity(){
+        scalarVelocity += scalarVelocityIncrement;
+    }
+
+    private void OnCollisionEnter2D(Collision2D other) {
+        if(other.gameObject.tag == "Paddle"){
+            float relativeCollisionX = other.contacts[0].point.x - other.transform.position.x;
+            float maxPaddleX = other.collider.bounds.max.x - other.transform.position.x;
+            // need to adjust/normalize values (?)
+            vy = scalarVelocity * ((maxPaddleX-Mathf.Abs(relativeCollisionX))/maxPaddleX);
+            vx = Mathf.Sqrt(Mathf.Pow(scalarVelocity,2) - Mathf.Pow(vy,2)) * Mathf.Sign(relativeCollisionX);
+            Velocity = new Vector2(vx,vy);
+            gameController.audioController.PlayClip(OnPaddleHit);
+        } else {
+            if(other.gameObject.tag == "Wall"){
+                IncreaseVelocity();
+                gameController.audioController.PlayClip(OnWallHit);
+            } else if (other.gameObject.tag == "Block"){
+                other.gameObject.GetComponent<Block>().OnHit();
+            }
+            Velocity = Vector2.Reflect(Velocity, other.contacts[0].normal);
+        }
     }
 
 }

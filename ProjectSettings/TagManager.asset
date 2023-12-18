@@ -3,19 +3,25 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - GameOverScreen
+  - Wall
+  - Paddle
+  - Block
+  - Ball
+  - PowerUp
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Blocks
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ball
+  - Walls
+  - Projectile
+  - Powerups
+  - Paddle
   - 
   - 
   - 

@@ -35,15 +35,14 @@ public class BlockController : MonoBehaviour
         float j = minY;
         foreach(char current in levelText){
             switch(current){
-                case 'R': Instantiate(RedBlockPrefab, new Vector3(i, j, 0), Quaternion.identity, gameObject.transform); break;
-                case 'G': Instantiate(GreenBlockPrefab, new Vector3(i, j, 0), Quaternion.identity, gameObject.transform); break;
-                case 'Y': Instantiate(YellowBlockPrefab, new Vector3(i, j, 0), Quaternion.identity, gameObject.transform); break;
-                case 'B': Instantiate(BlockPrefab, new Vector3(i, j, 0), Quaternion.identity, gameObject.transform); break;
-                case '-': break;
+                case 'R': Instantiate(RedBlockPrefab, new Vector3(i, j, 0), Quaternion.identity, gameObject.transform); i++; break;
+                case 'G': Instantiate(GreenBlockPrefab, new Vector3(i, j, 0), Quaternion.identity, gameObject.transform); i++; break;
+                case 'Y': Instantiate(YellowBlockPrefab, new Vector3(i, j, 0), Quaternion.identity, gameObject.transform); i++; break;
+                case 'B': Instantiate(BlockPrefab, new Vector3(i, j, 0), Quaternion.identity, gameObject.transform); i++; break;
+                case '-': i++; break;
                 case '\n': j-=0.32f; i=minX; break;
                 default: break;
             }
-            i++;
         }
     }
 
