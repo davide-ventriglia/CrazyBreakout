@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class AdjustCameraForResolution : MonoBehaviour
 {
-    // Set your reference resolution
+    // Setting the reference resolution
     public Vector2 referenceResolution = new Vector2(1920f, 1080f);
 
-    // Start is called before the first frame update
     void Start()
     {
         // Call the function to adjust the camera size initially
@@ -15,11 +14,11 @@ public class AdjustCameraForResolution : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    // void Update()
+    // {
         // Call the function to adjust the camera size if the screen resolution changes
         // AdjustCameraSize();
-    }
+    // }
 
     void AdjustCameraSize()
     {
@@ -28,7 +27,7 @@ public class AdjustCameraForResolution : MonoBehaviour
         float screenHeight = Screen.height;
 
         // Set the reference resolution based on the current screen resolution
-        Vector2 referenceResolution = new Vector2(1920f, 1080f); // Set your default reference resolution
+        Vector2 referenceResolution = new Vector2(1920f, 1080f);
         float targetAspect = referenceResolution.x / referenceResolution.y;
         float currentAspect = screenWidth / screenHeight;
 

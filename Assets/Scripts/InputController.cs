@@ -37,7 +37,7 @@ public class InputController : MonoBehaviour
             ball.PlayBall();
         }
 
-        // SPACE: fire projectiles
+        // SPACE: fire projectiles if powerup is active
         if(!ball.isInStartPosition && paddle.isShooting && Input.GetKeyDown(KeyCode.Space)){
             var p = Instantiate(ProjectilePrefab, paddle.transform.position, Quaternion.identity);
             Rigidbody2D rb = p.GetComponent<Rigidbody2D>();

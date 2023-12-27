@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class GameController : MonoBehaviour
 {
-    UIController uIController;
+    ClassicModeUIController UIController;
     BlockController blockController;
     public AudioController audioController;
     Ball ball;
@@ -16,10 +16,10 @@ public class GameController : MonoBehaviour
     public bool isGamePaused;
     public TMP_InputField nameInputField;
     public List<PowerUp> PowerUpsPrefabs;
-    public int hitBlocks;
+    public int destroyedBlocks;
 
     private void Start() {
-        uIController = FindObjectOfType<UIController>();
+        UIController = FindObjectOfType<ClassicModeUIController>();
         blockController = FindObjectOfType<BlockController>();
         // audioController = FindObjectOfType<AudioController>();
         ball = FindObjectOfType<Ball>();
@@ -27,7 +27,7 @@ public class GameController : MonoBehaviour
         Lives = 3;
         Level = 0;
         Score = 0;
-        hitBlocks = 0;
+        destroyedBlocks = 0;
         isGameOver = false;
         isGamePaused = false;
 
@@ -38,16 +38,16 @@ public class GameController : MonoBehaviour
     }
 
     void RefreshUI(){
-        uIController.UpdateScoreLabel(Score);
-        uIController.UpdateLivesLabel(Lives);
-        uIController.UpdateLevelLabel(Level);
-        uIController.ShowGameOverScreen(false);
-        uIController.ShowPauseScreen(false);
+        UIController.UpdateScoreLabel(Score);
+        UIController.UpdateLivesLabel(Lives);
+        UIController.UpdateLevelLabel(Level);
+        UIController.ShowGameOverScreen(false);
+        UIController.ShowPauseScreen(false);
     }
 
     public void AddScore(int _value){
         Score += _value;
-        uIController.UpdateScoreLabel(Score);    
+        UIController.UpdateScoreLabel(Score);    
     }
 
     public void AddLife(){
@@ -56,7 +56,7 @@ public class GameController : MonoBehaviour
 
     public void RemoveLife(){
         Lives -= 1;
-        uIController.UpdateLivesLabel(Lives);
+        UIController.UpdateLivesLabel(Lives);
         if(Lives<=0){
             GameOver();
         }
@@ -64,22 +64,23 @@ public class GameController : MonoBehaviour
 
     public void GameOver(){
         Time.timeScale = 0;
-        uIController.ShowSaveNameScreen(true);
+        UIController.ShowSaveNameScreen(true);
     }
 
     public void PauseGame(){
         Time.timeScale = 0;
         isGamePaused = true;
-        uIController.ShowPauseScreen(true);
+        UIController.ShowPauseScreen(true);
     }
 
     public void UnpauseGame(){
         Time.timeScale = 1;
         isGamePaused = false;
-        uIController.ShowPauseScreen(false);
+        UIController.ShowPauseScreen(false);
     }
 
-    public void BackToMenu(){
+    public void BackToTitle(){
+        BlockController.instance.ClearLevel();
         Time.timeScale = 1;
         SceneManager.LoadScene("Title",LoadSceneMode.Single);
     }
@@ -96,8 +97,8 @@ public class GameController : MonoBehaviour
 
     public void PlayNextLevel(){
         Level++;
-        hitBlocks = 0;
-        uIController.UpdateLevelLabel(Level);
+        destroyedBlocks = 0;
+        UIController.UpdateLevelLabel(Level);
         ball.SpawnBall();
         blockController.DrawLevel(Level);
     }
@@ -106,8 +107,8 @@ public class GameController : MonoBehaviour
         User user = new User();
         user.name = nameInputField.text;
         user.score = Score;
-        DBManager.Instance.SaveRecord(DBManager.Instance.ClassicLeaderboardData, "ClassicLeaderboardData", user);
-        uIController.ShowSaveNameScreen(false);
-        uIController.ShowGameOverScreen(true);
+        DBManager.Instance.SaveNewPlayer(DBManager.Instance.ClassicLeaderboardData, "ClassicLeaderboardData", user);
+        UIController.ShowSaveNameScreen(false);
+        UIController.ShowGameOverScreen(true);
     }
 }

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5290554628917087132}
   - component: {fileID: 5290554628917087133}
   - component: {fileID: 5290554628917087123}
-  - component: {fileID: 836781701924756643}
+  - component: {fileID: -4055592476538305439}
   m_Layer: 3
   m_Name: GreenBlock
   m_TagString: Block
@@ -134,7 +134,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &836781701924756643
+--- !u!114 &-4055592476538305439
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,10 +143,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5290554628917087120}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c0b2418199944b68bf9e5c27c119cb2, type: 3}
+  m_Script: {fileID: 11500000, guid: aeae195aae8324e369a819378129b24a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hits: 2
-  ScoreValue: 125
-  OnBlockDestroyed: {fileID: 8300000, guid: 390ec1bf0ff5890429c75c74927a784b, type: 3}
-  OnBlockHit: {fileID: 8300000, guid: 8967664d203867140b1d700b977d0dee, type: 3}
+  blockData: {fileID: 11400000, guid: b157e4820a7c34b88ae4b5e6475192ba, type: 2}

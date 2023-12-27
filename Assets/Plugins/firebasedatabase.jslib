@@ -1,6 +1,6 @@
 mergeInto(LibraryManager.library, {
 
-    GetData: function(path, objectName, callback, fallback) {
+    GetLeaderboardData: function(path, objectName, callback, fallback) {
         var parsedPath = UTF8ToString(path);
         var parsedObjectName = UTF8ToString(objectName);
         var parsedCallback = UTF8ToString(callback);
@@ -16,7 +16,7 @@ mergeInto(LibraryManager.library, {
         }
     },
 
-    SaveRecord: function(path, value, objectName, fallback) {
+    SaveNewPlayer: function(path, value, objectName, fallback) {
         var parsedPath = UTF8ToString(path);
         var parsedValue = UTF8ToString(value);
         var parsedObjectName = UTF8ToString(objectName);

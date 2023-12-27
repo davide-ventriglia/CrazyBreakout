@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 749e8308b555f4159a50831e331c6612, type: 3}
+  m_Name: GreenBlock
+  m_EditorClassIdentifier: 
+  objectPrefab: {fileID: 5290554628917087120, guid: 74fb499d45e6842c68d3eea9347a0cb3, type: 3}
+  label: GreenBlock
+  m_score: 125
+  m_hits: 2
+  BlockExplosionPrefab: {fileID: 446757593199240925, guid: d05e2ed12bc274fdfbfa6ba9c56b20c3, type: 3}
+  OnBlockDestroyed: {fileID: 8300000, guid: 390ec1bf0ff5890429c75c74927a784b, type: 3}
+  OnBlockHit: {fileID: 8300000, guid: 8967664d203867140b1d700b977d0dee, type: 3}
+  m_RGBModifiers:
+    m_R: 0.2
+    m_G: -0.2
+    m_B: 0.2

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5290554628917087132}
   - component: {fileID: 5290554628917087133}
   - component: {fileID: 5290554628917087123}
-  - component: {fileID: 9089490582609336413}
+  - component: {fileID: -475427118770522444}
   m_Layer: 3
   m_Name: RedBlock
   m_TagString: Block
@@ -134,7 +134,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &9089490582609336413
+--- !u!114 &-475427118770522444
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,10 +143,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5290554628917087120}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c21b4d4b4c8f6428db64e665b39d0140, type: 3}
+  m_Script: {fileID: 11500000, guid: aeae195aae8324e369a819378129b24a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hits: 4
-  ScoreValue: 200
-  OnBlockDestroyed: {fileID: 8300000, guid: 390ec1bf0ff5890429c75c74927a784b, type: 3}
-  OnBlockHit: {fileID: 8300000, guid: 8967664d203867140b1d700b977d0dee, type: 3}
+  blockData: {fileID: 11400000, guid: 64fe1ac6ce7fc44e388819dfa02927e4, type: 2}
